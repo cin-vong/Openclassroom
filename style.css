@@ -65,3 +65,23 @@ section
 {
     width: 85%;
 }
+
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        display: block;
+        width: auto;
+    }
+
+    #liseret
+    {
+        display: none;
+    }
+
+    #contenu
+    {
+        width: auto;
+    }
+
+}
